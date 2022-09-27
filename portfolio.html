@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- header -->
-  <header class="header">
+    <header class="header">
       <nav>
         <a class="header-logo link" href="./index.html"
           ><span class="header-web-logo">Web</span> Studio</a
@@ -44,27 +44,27 @@
     <!-- Main -->
     <main>
       <!-- Приховати заголовок h1 -->
-      <h1>Портфоліо робіт</h1>
-      <section>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <h1 class="visually-hidden">Портфоліо робіт</h1>
+      <section class="portfolio">
+        <ul class="portfolio-list-btn list">
+          <li class="portfolio-item"><button class="portfolio-btn" type="button">Усі</button></li>
+          <li class="portfolio-item-btn"><button  class="portfolio-btn"type="button">Веб-сайти</button></li>
+          <li class="portfolio-item-btn"><button class="portfolio-btn" type="button">Додатки</button></li>
+          <li class="portfolio-item-btn"><button class="portfolio-btn" type="button">Дизайн</button></li>
+          <li class="portfolio-item-btn"><button  class="portfolio-btn"type="button">Маркетинг</button></li>
         </ul>
 
-        <ul>
-          <li>
+        <ul class="portfolio-list list">
+          <li class="portfolio-item">
             <img
               src="./images/site1.jpg"
               alt="сайт Технокряк"
               width="370"
               height="294"
             />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
+            <h2 class="portfolio-title">Технокряк</h2>
+            <p class="portfolio-content">Веб-сайт</p>
+          </li class="portfolio-item">
           <li>
             <img
               src="./images/site2.jpg"
@@ -72,78 +72,78 @@
               width="370"
               height="294"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-content">Дизайн</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/site3.jpg"
               alt="логотип ресторану"
               width="370"
               height="294"
             />
-            <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
+            <h2 class="portfolio-title">Ресторан Seafood</h2>
+            <p class="portfolio-content">Додаток</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/site4.jpg"
               alt="фото навушників"
               width="370"
               height="294"
             />
-            <h2>Проєкт Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проєкт Prime</h2>
+            <p class="portfolio-content">Маркетинг</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/site5.jpg"
               alt="логотип додатку"
               width="370"
               height="294"
             />
-            <h2>Проєкт Boxes</h2>
-            <p>Додаток</p>
+            <h2 class="portfolio-title">Проєкт Boxes</h2>
+            <p class="portfolio-content">Додаток</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/site6.jpg"
               alt="веб-сайт"
               width="370"
               height="294"
             />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title">Inspiration has no Borders</h2>
+            <p class="portfolio-content">Веб-сайт</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/site7.jpg"
               alt="дизайн видання"
               width="370"
               height="294"
             />
-            <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">Видання Limited Edition</h2>
+            <p class="portfolio-content">Дизайн</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/site8.jpg"
               alt="проект бірок"
               width="370"
               height="294"
             />
-            <h2>Проєкт LAB</h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проєкт LAB</h2>
+            <p class="portfolio-content">Маркетинг</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/site9.jpg"
               alt="ноотбук"
               width="370"
               height="294"
             />
-            <h2>Growing Business</h2>
-            <p>Додаток</p>
+            <h2 class="portfolio-title">Growing Business</h2>
+            <p class="portfolio-content">Додаток</p>
           </li>
         </ul>
       </section>
@@ -151,18 +151,25 @@
     <!-- Footer -->
     <footer class="footer">
       <a class="footer-logo link" href="./index.html"
-          ><span class="footer-web-logo">Web</span>Studio</a
-        >
-      <address>
-        <a class="footer-address link"
+        ><span class="footer-web-logo">Web</span>Studio</a
+      >
+      <address class="footer-address">
+        <a
+          class="footer-link link"
           href="https://goo.gl/maps/SvRbVxrpDVyvdcLT7"
           target="_blank"
           rel="noreferrer noopener nofollow"
           >м. Київ, пр-т Лесі Українки, 26
         </a>
-        <ul class="list">
-          <li ><a class="footer-email" href="info@devstudio.com">info@devstudio.com</a></li>
-          <li ><a class="footer-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <a class="footer-email link" href="info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-item">
+            <a class="footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
