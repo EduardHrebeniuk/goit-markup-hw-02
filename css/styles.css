@@ -202,6 +202,7 @@ background: #2f303a;
 }
 
 .footer-link {
+  font-family:inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -218,6 +219,13 @@ background: #2f303a;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-email:hover, .footer-email:focus{
+  color: #2196F3;
+}
+.footer-tel:hover ,.footer-tel:focus {
+color: #2196F3;
 }
 
 /* --------------------PORTFOLIO----------------------------- */
