@@ -9,8 +9,9 @@
 */
 
 body {
-font-family: roboto, sans-serif;
-color: #212121;;
+font-family: 'Roboto', sans-serif;
+color: #212121;
+background-color: #FFFFFF;
 }
 .list {
 list-style: none;
@@ -18,14 +19,15 @@ list-style: none;
 .link {
 text-decoration: none;
 }
+
+
 /* --------------------HEADER-------------------------- */
 
 .header {
 background: #ffffff;
 }
 .header-logo {
-font-family: raleway, sans-serif;
-font-style: normal;
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -84,21 +86,22 @@ background: #2f303a;
   color: #ffffff;
 }
 .hero-button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 
   color: #ffffff;
-  background: #2196f3;
+  background-color: #2196f3;
   cursor: pointer;
 }
 
+.hero-button:hover, .hero-button:focus{
+  color: #188CE8;
+}
 /* --------------------FUTURES-------------------------- */
 
 /* заховати заголовок */
@@ -185,7 +188,7 @@ background: #2f303a;
   background: #2f303a;
 }
 .footer-logo {
-  font-family: raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -262,6 +265,9 @@ color: #212121;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
+}
+.portfolio-link {
+;
 }
 
 .portfolio-content {
