@@ -205,7 +205,6 @@ background: #2f303a;
 }
 
 .footer-link {
-  font-family:inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -267,7 +266,7 @@ line-height: 2;
 letter-spacing: 0.06em;
 }
 .portfolio-link {
-;
+
 }
 
 .portfolio-content {
