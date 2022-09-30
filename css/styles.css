@@ -17,6 +17,7 @@
   --footer-background-color: #2f303a;
   --team-background-color: #f5f4fa ;
   --footer-tel-color:  rgba(255, 255, 255, 0.6);
+  --portfolio-btn: #F5F4FA; 
 
 }
 
@@ -114,7 +115,8 @@ background-color: var(--footer-background-color);
 }
 
 .hero-button:hover, .hero-button:focus{
-  color: var(--hero-btn-color);
+  
+background-color: var(--hero-btn-color);
 }
 /* --------------------FUTURES-------------------------- */
 
@@ -226,7 +228,9 @@ background-color: var(--footer-background-color);
   letter-spacing: 0.03em;
   color: var(--background-color);
 }
-
+.footer-link:hover, .footer-link:focus{
+  color: var(--active-color);
+}
 .footer-list {
 }
 .footer-item {
@@ -265,7 +269,8 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
-color: #212121;
+color: var(--title-text-color);
+background-color: var(--portfolio-btn);
 }
 .portfolio-btn:hover, .portfolio-btn:focus
 {
